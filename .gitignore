@@ -6,3 +6,6 @@
 # env file
 .env
 .env.*
+
+# automated graphQL
+*.gql
