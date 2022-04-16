@@ -7,6 +7,8 @@ import { ConfigModule } from '@nestjs/config';
 import * as Joi from 'joi';
 
 import { RestaurantModule } from './restaurant/restaurant.module';
+import { UserModule } from './user/user.module';
+import { CommonModule } from './common/common.module';
 import Restaurant from './restaurant/entities/restaurant.entity';
 
 @Module({
@@ -40,6 +42,8 @@ import Restaurant from './restaurant/entities/restaurant.entity';
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
     }),
+    UserModule,
+    CommonModule,
   ],
   controllers: [],
   providers: [],

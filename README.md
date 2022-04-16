@@ -5,3 +5,13 @@
 2. able to Test, easy to Mocking that can make simulate it.
 
 3. NestJS에 편리한 Repo 관련 기능이 있음.
+
+## User Entity
+
+- id
+- createdAt
+- updatedAt
+
+- email
+- password
+- role(client | owner | delivery)
