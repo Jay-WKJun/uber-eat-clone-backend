@@ -1,4 +1,4 @@
-import { ObjectType, Field, InputType } from '@nestjs/graphql';
+import { ObjectType, Field } from '@nestjs/graphql';
 import { IsString, Length, IsBoolean, IsOptional } from 'class-validator';
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
